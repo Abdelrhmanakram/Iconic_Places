@@ -1,0 +1,380 @@
+ 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+ 
+.b{
+	 width: 100%;
+     height: 735px;
+	 /* background-image:url('wedding/C’est La Vie Villa.jpg'); */
+   background-image:url('wedding/Cest La Vie Villa.jpg');
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	  opacity: 0.9;
+}
+ 
+ 
+.h{
+	text-align:right;
+	padding-left:970px;
+	
+	
+	
+}
+ nav{
+position: relative;
+margin:5px auto 0;
+width: 475px;
+height: 50px;
+background:transparent;
+border-radius: 8px;
+font-size: 0;
+box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+}
+
+nav a{
+font-size: 15px;
+text-transform: uppercase;
+color:white;
+font-weight:bold;
+text-decoration: none;
+line-height: 50px;
+position: relative;
+z-index: 1;
+display: inline-block;
+text-align: center;
+}
+
+nav .animation{
+position: absolute;
+height: 100%;
+top: 0;
+z-index: 0;
+background: #8f7cec;
+border-radius: 8px;
+transition: all .5s ease 0s;
+}
+
+nav a:nth-child(1){
+    width: 100px;
+    }
+    nav .start-home, a:nth-child(1):hover~.animation{
+       width: 100px;
+       left: 0;
+    }
+
+    nav a:nth-child(2){
+    width: 110px;
+    }
+    nav a:nth-child(2):hover~.animation{
+    width: 110px;
+    left: 100px;
+    }
+    nav a:nth-child(3){
+    width: 100px;
+    }
+    nav a:nth-child(3):hover~.animation{
+    width: 100px;
+    left: 210px;
+    }
+    nav a:nth-child(4){
+    width: 160px;
+    }
+    nav a:nth-child(4):hover~.animation{
+    width: 160px;
+    left: 310px;
+    }
+    nav a:nth-child(5){
+    width: 120px;
+    }
+    nav a:nth-child(5):hover~.animation{
+    width: 120px; 
+    left: 370px;
+    } 
+
+
+.maintext{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main2 a{
+  background-color: #8f7cec;
+    border: 2px black solid ;
+    color: whitesmoke;
+    margin-top: 200px;
+    text-align: center;
+    margin: auto;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+text-decoration: none;
+padding-top: 15px ;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+}
+
+.main2 a:hover{
+  color:#8f7cec;
+   background-color: white;
+    padding-top: 12px ;
+padding-left: 12px;
+padding-right: 12px;
+padding-bottom: 12px;
+transition: 0.5s;
+
+transform: rotate(0.5turn);
+    
+}
+
+.main2{
+    width: 90%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/*basmalla*/
+
+#textt{
+    text-align:center;
+     font-family: 'Oswald', sans-serif; 
+     box-shadow: 2px black;
+      padding: auto;
+     
+     
+       
+  box-shadow: 10px 10px 5px 12px rgba(0,0,0,0.8);
+}
+/* basmalla ll services page */
+.services{
+   
+    height: 500px;
+    width: 100%;
+}
+/* basmalla ll restaurent page */
+#loll{margin: auto;
+    border: 2px solid black;
+     height: 500px;
+      text-align: center;
+      border-radius: 20px ;
+      margin-top: 20px;
+      padding: 30px;
+  
+}
+
+#loll:hover{
+   background-color:  #ece9fc;
+       color: black;
+    border: 2px solid rgb(3, 3, 45);
+     height: 600px;
+      text-align: center;
+      border-bottom-right-radius: 50px;
+      border-top-left-radius: 50px;
+      padding: 60px;
+      margin-top: 20px;
+      transition: 0.5s;
+      
+   }
+   .inp{
+       color: black;
+   }
+
+
+/* footer*/
+/* footer=======================================================*/
+  .site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600;
+  }
+}
+/*crew+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.testimonial-card .card-up { height: 120px; overflow: hidden; border-top-left-radius:
+  0.25rem; border-top-right-radius: 0.25rem; } .testimonial-card .avatar { width: 110px;
+  margin-top: -60px; overflow: hidden; border: 3px solid #fff; border-radius: 50%; }
+
+
+
+
+  /*FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF*/
+  .book{
+background-color: #29aafe;
+  }
+  
+
+ .sort{
+	  height: 500px;
+    width: 100%;
+ }
